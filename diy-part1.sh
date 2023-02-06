@@ -14,5 +14,12 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+echo 'src-git packages https://gitee.com/dzhuqi/packages' >>feeds.conf.default
+echo 'src-git luci https://gitee.com/kaolu-angel/luci' >>feeds.conf.default
+echo 'src-git routing https://gitee.com/kaolu-angel/routing' >>feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git kenzok https://gitee.com/Ulysseo_admin/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://gitee.com/Ulysseo_admin/small' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
